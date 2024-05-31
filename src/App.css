@@ -1,0 +1,639 @@
+*{
+  color:white;
+  font-family: "Noto Serif", serif;
+}
+
+.navbar{
+ position: absolute !important;
+  backdrop-filter: blur(5px);
+  
+}
+/* for the navbar brand */
+a.navbar-brand{
+  padding-left: 6%;
+  padding-right: 10%;
+}
+/* styling the navlinks */
+a.nav-link{
+  display: inline-block; 
+  color: white;
+  margin-right: 8% !important;
+  font-size: 16pt;
+  font-weight: 500;
+
+}
+div.me-auto{
+  min-width: 100% !important;
+}
+/* Section1.css */
+
+
+
+.sec1{
+  background-color: #16212c;
+  position: relative;
+  height: 100vh;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+.blue{
+  position: relative;
+  height: 100vh !important;
+  bottom: 31.7rem;
+  background-color: #071525;
+  clip-path: polygon(90% 0, 100% 0, 100% 100%, 0 100%, 0 90%);
+  z-index: 1; 
+}
+
+.green1 {
+  position: absolute; /* Use absolute positioning */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #79FF98;
+  clip-path: polygon(97% 0, 99% 0, 0 100%, 0 98%);
+  z-index: 2; }
+
+.imgbg {
+  position: absolute; /* Use absolute positioning */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%; /* Ensure the image covers the parent */
+  object-fit: cover; /* Ensure the image covers the area */
+  z-index: 3; /* Ensure the image is on top of other elements */
+  clip-path: polygon(99% 0, 100% 0, 100% 61%, 60% 100%, 0 100%);
+}
+.green2 {
+  position: absolute; /* Use absolute positioning */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #79FF98;
+  clip-path: polygon(100% 76%, 100% 79%, 76% 100%, 73% 100%);
+  z-index: 2; }
+  .herotxt{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 4%;
+    z-index: 100 !important;
+  }
+  .herotxt h1{
+  font-family: "Noto Serif", serif;
+  font-size: 48pt;
+  font-weight: 800;
+  letter-spacing: 2px;
+  }
+  .herotxt h4{
+    font-family: "Noto Serif", serif;
+  font-size: 25pt;
+  font-weight: 400;
+  letter-spacing: 2px;
+  }
+  .herotxt p{
+  margin-bottom: 0;
+  font-family: "Noto Serif", serif;
+  font-size: 15pt;
+  font-weight: 500;
+  letter-spacing: 2px;
+  }
+  
+
+  /* Section 2 css */
+  .sec2{
+    padding-top: 4%;
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+  }
+  .sec2 h2{
+    font-family: "Noto Serif Khojki", serif;
+    font-weight: 300;
+    font-size: 30pt;
+  }
+  .sec2 h1{
+   
+    font-family: "Noto Serif Khojki", serif;
+    font-weight: 900;
+    font-size: 35pt;
+  }
+  .sec2 hr{
+    height: 10px !important;
+    width: 8%;
+    opacity: 1;
+    margin-top: 2.5%;
+    margin-bottom:3% ;
+    background-color: #00C8E2 ;
+    border: none;
+  }
+  .sec2 .d-flex img{
+    background-color: #071525;
+  
+    filter: brightness(250%);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6)
+  }
+  .sec2 .d-flex h5{
+    text-align: left;
+    color: black;
+    font-weight: 900;
+    font-family: "Noto Serif Khojki", serif;
+    font-size: 25pt;
+  }
+  
+  .sec2 .d-flex p{
+    text-align: center;
+    color: black;
+    font-family: "Noto Serif Khojki", serif;
+    font-size: 20pt;
+  }
+  
+  /* section 3 css */
+
+
+  .sec3{
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .sec3 h2{
+    color: black;
+    font-family: "Noto Serif", serif;
+    font-size:50pt;
+    font-weight: 800;
+  }
+  .sec3 h3{
+    color: black;
+    font-family: "Noto Serif", serif;
+    font-size:25pt;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .sec3 p{
+    color: black;
+    font-family: "Noto Serif", serif;
+    font-size:15pt;
+    letter-spacing: 4px;
+    line-height: 2pc;
+   
+  }
+  .sec3 .subt{
+    color: black;
+    font-weight: 900;
+    font-size: 20pt;
+    margin-right: 10%;
+  }
+
+  .parts{
+    padding: 5%;
+    padding-bottom: 0!important;
+  }
+  .parts img{
+    height: 550px !important;
+    width: 550px !important;
+    clip-path: circle(50% at 50% 50%);
+  }
+  .sec3 hr{
+    height: 2px !important;
+    width: 100%;
+    opacity: 1;
+    margin-top: 2.5%;
+    margin-bottom:3% ;
+    background-color: #00C8E2 ;
+    border: none;
+  }
+  .sec3 .activity{
+    text-align: left;
+    color: orangered;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 700;
+    font-size: 30pt;
+    line-height:3pc !important;
+    letter-spacing: 5px !important;
+    font-style: italic;
+    padding-top: 5%;
+    margin-right: 28%;
+  }
+  #mod{
+    font-weight: 600;
+  }
+
+
+  /* Section 4 css */
+
+  .sec4{
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-right:8%;
+  }
+  .sec4 .p3{
+    color: black;
+  }
+  .sec4 h1{
+    padding-top: 4%;
+    color: black;
+    font-family: "Noto Serif", serif;
+    font-size:50pt;
+    font-weight: 600;
+    padding-bottom: 4%;
+  }
+  .sec4 div.card{
+    border: none;
+    text-align: center;
+  }
+  .sec4 .card-title{
+    color: black;
+    font-family: "Noto Serif", serif;
+    font-size:20pt;
+    font-weight: 800;
+  }
+  .sec4 .card-text{
+    font-family: "Noto Serif", serif;
+    color: #071525;
+    font-size: larger;
+  }
+  .sec4 strong{
+    color: black;
+  }
+  .sec4 hr{
+    height: 5px;
+    opacity: 1;
+  }
+  .sec4 img{
+    height: 280px;
+    clip-path: circle(48.9% at 51% 50%);
+  }
+  .btn-custom{
+    font-family: "Noto Serif", serif !important;
+    font-size: 18pt !important;
+    font-weight: 200;
+    color: black !important;
+    border-color: #00C8E2 !important;
+    border-radius: 2% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-left: 43% !important;
+    margin-bottom: 5% !important;
+  }
+.btn-custom:hover{
+    background-color: #00C8E2 !important;
+  }
+
+
+
+  /* Section 5 CSS */
+  .sec5{
+    min-height: 100vh;
+    background-color:#15212D;
+    color: white;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .sec5 h2{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size:50pt;
+    font-weight: 800;
+  }
+  .sec5 h3{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size:25pt;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .sec5 p{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size:15pt;
+    letter-spacing: 4px;
+    line-height: 2pc;
+   
+  }
+  .sec5 .subt{
+    color: white;
+    font-weight: 900;
+    font-size: 20pt;
+    margin-right: 10%;
+  }
+
+ .sec5  .parts{
+    padding: 5%;
+    padding-bottom: 0!important;
+  }
+  .sec5 .parts img{
+    height: 550px !important;
+    width: 550px !important;
+    clip-path: circle(50% at 50% 50%);
+  }
+  .sec5 hr{
+    height: 2px !important;
+    width: 100%;
+    opacity: 1;
+    margin-top: 2.5%;
+    margin-bottom:3% ;
+    background-color: #00C8E2 ;
+    border: none;
+  }
+  .sec5 .activity{
+    text-align: left;
+    color:#00C8E2;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 700;
+    font-size: 32pt;
+    letter-spacing: 5px !important;
+    line-height:3.5pc !important;
+    font-style: italic;
+    padding-top: 5%;
+    padding-left: 10%;
+  }
+
+/* FOOTER PAGE CSS */
+.foot{
+  min-height: 100vh;
+  background-color: white;
+ padding-bottom: 0;
+ 
+  
+}
+.foot .bg-im{
+ min-height: 62vh;
+ background:linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ background-repeat:no-repeat ;
+ background-size: cover, 100%;
+ background-position: bottom, center;
+ 
+}
+.foot h1{
+  text-align: center;
+  color:white;
+  font-family: "Caveat Brush", cursive;
+  font-weight: 500;
+  font-size: 42pt;
+  letter-spacing: 5px !important;
+  line-height:5pc !important;
+  font-style: italic;
+ padding-top: 5%;
+ 
+}
+.foot img{
+  filter: brightness(250%);
+  height: 100px  !important;
+  width: auto !important;
+
+}
+.foot .btn-custom{
+  margin-left: 0 !important;
+  margin-bottom:0 !important;
+  color: white !important;
+  
+}
+.foot .txt h3{
+  color: black;
+  font-weight: 600;
+  margin-bottom: 40%;
+}
+.foot .txt p{
+  color: black;
+  font-size: larger;
+  font-weight: 400;
+}
+.footer{
+  height: 38vh;
+  padding-top: 5%;
+  padding-right:10% ;
+  padding-left:10% ;
+ 
+}
+.foot .txt{
+  padding-left: 8%;
+  padding-right: 3%;
+}
+.foot h2{
+  color: black;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.foot p{
+  color: black;
+  margin-bottom: 2%;
+}
+.footer img{
+  height: 20% !important;
+}
+@media screen and (max-width: 1441px) {
+  .blue{
+    bottom: 29.85rem;
+  }
+  .foot .bg-im{
+   padding-bottom: 2%;
+   }
+   .footer{
+    
+    padding-top: 3%;
+    
+  }
+  .parts img{
+    height: 530px !important;
+    width: 555px !important;
+   
+  }
+  .sec5{
+    
+    padding-left: 3%;
+    padding-right: 1%;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .sec5 .parts img{
+    height: 450px !important;
+    width: 605px !important;
+  }
+  .sec3 .activity{
+    font-size: 28pt;
+  }
+  .sec5 .activity{
+    font-size: 28pt;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .blue{
+    bottom: 26.85rem;
+  }
+  .herotxt h1{
+   padding-top: 1%;
+    font-size: 40pt;
+    
+    letter-spacing: 2px;
+    }
+    .sec2 .d-flex h5{      
+      font-size: 20pt;
+    }
+    
+    .sec2 .d-flex p{
+      font-size: 15pt;
+    }
+    .sec3 h2{
+      
+      font-size:40pt;
+     
+    }
+    .sec3 h3{
+      
+      font-size:20pt;
+    }
+    .sec3 p{
+     
+      font-size:15pt;
+     
+     
+    }
+    .parts img{
+      height: 382px !important;
+      width: 570px !important;
+     
+    }
+    .sec3 .subt{
+      color: black;
+      font-weight: 900;
+      font-size: 15pt;
+      margin-right: 10%;
+    }
+    .sec5{
+      
+      padding-left: 3%;
+      padding-right: 1%;
+      margin-bottom: 0;
+      overflow: hidden;
+    }
+    .sec5 .parts img{
+      height: 322px !important;
+      width: 775px !important;
+    }
+    .sec3 .activity{
+      font-size: 28pt;
+      margin-right: 2%;
+    }
+    .sec5 .activity{
+      font-size: 20pt;
+      font-style:italic;
+
+     
+    }
+    .sec5 h2{
+      font-size:35pt;
+    }
+    .sec5 h3{
+      font-size:20pt;
+    }
+    .sec5 p{
+     
+      font-size:15pt;
+     
+     
+    }
+    .sec5 .subt{
+      
+      font-size: 15pt;
+    
+    }
+}
+@media screen and (max-width: 769px) {
+  .sec1{
+    width: 100%;
+  }
+  .sec2{
+    min-height: 100vh !important;
+  }
+
+  .blue{
+    bottom: 25.45rem;
+  }
+    
+
+    .parts img{
+      height: 390px !important;
+      width: 390px !important;
+     
+    }
+    
+    .sec5 .parts img{
+      height: 375px !important;
+      width: 375px !important;
+    }
+    .foot .bg-im{
+      min-height: 30vh;
+
+      
+     }
+     .foot h1{
+   
+      font-size: 30pt;
+     
+     
+    }
+
+
+}
+@media screen and (max-width: 425px) {
+
+  .herotxt{
+    padding-top: 15%;
+  }
+  .sec1{
+    width: 100%;
+    
+  }
+  .sec2 {
+    min-height: 100vh !important;
+  }
+
+  .blue{
+    bottom: 28.65rem;
+  }
+    
+
+    .parts img{
+      height: 310px !important;
+      width: 390px !important;
+     
+    }
+    
+    .sec5 .parts img{
+      height: 340px !important;
+      width: 375px !important;
+    }
+    .foot .bg-im{
+      min-height: 20vh;
+
+      
+     }
+     .foot h1{
+   
+      font-size: 15pt;
+      letter-spacing: 2px !important;
+  line-height:1pc !important;
+     
+     
+    }
+    .sec5 h2{
+      font-size:25pt;
+    }
+
+}
