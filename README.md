@@ -1,7 +1,7 @@
 # HIKING LIFE LANDING PAGE
 Made responsive landing page for a company called Hiking Life using ReactJS and Bootstrap.
 
-### `yarn add`
+### `yarn install`
 To install all the node modules needed
 
 
